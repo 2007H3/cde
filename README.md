@@ -2,13 +2,13 @@
 
 ## How to use this document:
 1. To undestand how the PII project was implemented from start to finish, continue reading.
-1. To modify and/or run an existing masking set, goto to [Appendix A](#appendix-a).
+1. To modify and/or run an existing masking set, go to [Appendix A](#appendix-a).
 
 ## The Data Masker Product
 
 Red-Gate Data Masker was used to create masking rules to sanitize personally identifiable information (PII) in the Scs dev Innovation database. Version 7.0.16.5777 was used in a 14 day trial period. This product supports a wide range of data privacy obfuscation use cases for products, internal audits, and regulatory and statutory concerns.
 
-> **NOTE:** Red-Gate Masking Tool (RGMT) documentation can be found [here](https://documentation.red-gate.com/d).  A good reference on PII can be found [here](https://www.identityforce.com/blog/what-is-pii).
+> **NOTE:** Red-Gate Masking Tool (RGMT) documentation can be found [here](https://documentation.red-gate.com/d).  A good reference on PII can be found [here](https://www.identityforce.com/blog/what-is-pii). General defninistions used in this document found [Here](#definitions)
 
 ## The User Worfklow 
 
@@ -109,14 +109,14 @@ Requirements to Run a Masking Set
 
 ## Definitions
 
-Plan: A plan as defined by Red-Gate is an internal representation of the
+***Masking Plan*** : A plan as defined by Red-Gate is an internal representation of the
 database schema identifying sensitive columns as candidates for PII.
 
-Excel Template: Data Classification Report.xlsm.
+***Excel Template***: Data Classification Report.xlsm.
 
-DataSet: A database of substitution terms supplied by Redgate.
+***DataSet***: A database of substitution terms supplied by Redgate.
 
-Rule.
+***Masking Set***: 
 
 \#\#\# My Great Heading {\#custom-id}
 
