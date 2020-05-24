@@ -2,7 +2,7 @@
 
 ## How to use this document:
 1. To undestand how the PII project was implemented from start to finish, continue reading.
-1. To modify and/or run an existing masking set, goto to [Appendix A]("./cde#appendix-a").
+1. To modify and/or run an existing masking set, goto to [Appendix A]("#appendix-a").
 
 ## The Data Masker Product
 
