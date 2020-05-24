@@ -1,20 +1,20 @@
 # PII Masking
 
 ## How to use this document:
-* To undestand how the PII project was implemented from start ot finish, continue reading.
-* To modify and/or run an existing masking set or modify rules in an existing masking file, goto to [Appendix A]
+1. To undestand how the PII project was implemented from start to finish, continue reading.
+1. To modify and/or run an existing masking set, goto to [Appendix A]("./cde#appendix-a").
 
-## The Product (Section A)
+## The Data Masker Product
 
-Red-Gate Data Masker was used to create masking rules to obfuscate personally identifiable information (PII) in the Scs dev Innovation database. Version 7.0.16.5777 was used in a 14 day trial period. This product supports a wide range of data privacy sanitization use cases for products, internal audits, and regulatory and statutory concerns.
+Red-Gate Data Masker was used to create masking rules to sanitize personally identifiable information (PII) in the Scs dev Innovation database. Version 7.0.16.5777 was used in a 14 day trial period. This product supports a wide range of data privacy obfuscation use cases for products, internal audits, and regulatory and statutory concerns.
 
 > **NOTE:** Red-Gate Masking Tool (RGMT) documentation can be found [here](https://documentation.red-gate.com/d).  A good reference on PII can be found [here](https://www.identityforce.com/blog/what-is-pii).
 
-## The Worfklow 
+## The User Worfklow 
 
-#### The following workflow describes the method used to construct a Masking Set for the Redline PII story, composed of masking rules.
+#### The following workflow describes the method used to construct a Masking Set for the Redline PII story.
 
-To simplify the entry of masking rules for large databases like Scs, this workflow was created. This workflow differs from the typical method Red-Gate suggests to use its software - that is to identify mask columns then, build rules all within the software application. The modified worklow builds basic substitution rules outside of the software using Excel to manage masked columns and a macro to build a intermediary xml file, which is then copied into the masking set file used by Red-Gate. At that point, futher refinements are made within RGMT.
+To simplify the entry of masking rules for large databases like Scs, this workflow was created. This workflow differs from the typical method Red-Gate suggests to use its software - that is to identify mask columns then, build rules all within the software application. The modified worklow builds basic substitution rules outside of the software using Excel to manage masked columns and a macro to build a intermediary xml file that read the Excel masked columns, which are then copied into the masking set file used by Red-Gate. At that point, futher refinements are made within RGMT.
 
 > **NOTE:** To use this workflow, familiarity with Red-Gate's xml masking rules schema, the msxml Active X library, Xpath, Excel and Vba scripting is helpful.  This workflow is not required of any masking project - it only helps simplify the creation of creating a set of "starter" rules in larger projects.
 
@@ -89,6 +89,7 @@ Input: A list of masking columns, sorted by table, and dataset
 
 Output: An xml_result.xml rules masking file that can be partially copied to a
          Redgate Data Masker File
+
 
 
 ## Appendix A
