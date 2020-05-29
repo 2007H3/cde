@@ -1,4 +1,4 @@
-# ADR - [value] Report Documentation Template
+# Solution Assessment & Validation for the Report Documentation Template
 
 Date: 2020-05-27
 
@@ -6,12 +6,21 @@ Date: 2020-05-27
 
 Proposed
 
+## Related Documents
+[./Reporting Remplate.md](.\/Reporting_Template.md)
+
 ## Context
 
-Although not technically an architecural decision this document will follow the ADR convention to aid in documenting the decision making around how the template structure and ultimately the template implementation for reporting documentation was arrived at. This reporting documentation template will be used across Redline reporting to serve users, auditors and to a lesser extent developers. This is an "architectural" decision process description.
+This solution assessment & validation document describes and ensures that the key decisions, formats and conventions used in the Reporting Document Template are aligned with industry and vendor report documentation standards, and to ensure that key requirements from the standpoint of user, audit, and data management are met. 
 
-## Template Goals
+An implemnetation of a reporting documentation template will be used across Redline reporting to serve users, auditors and to a lesser extent developers. This is an "architectural" business process description.
 
+## Template Goals & Requirements
+
+### Key Requirements
+
+
+### Key Goals
 What should a reporting documentation template include? The general idea was to have a healthy mix between design specification (for audit) and end user documentation (for contextual help). And to establish ids in the template that could be queried programmatically for the possibility of serving the document in sections. Documentation would be rendered via a [Jupyter notebook](http://jupyter.org), although the result would be both vendor agnostic and rendering method agnostic.
 
 ## Existing Guidance
