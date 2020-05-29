@@ -13,11 +13,15 @@ Proposed
 
 This solution assessment & validation document describes and ensures that the key decisions, formats and conventions used in the Reporting Document Template are aligned with industry and vendor report documentation standards, and to ensure that key requirements from the standpoint of user, audit, and data management are met. 
 
-An implemnetation of a reporting documentation template will be used across Redline reporting to serve users, auditors and to a lesser extent developers. This is an "architectural" business process description.
+An implemnetation of a reporting documentation template will be used across Redline reporting to serve users, auditors and to a tertiary extent, developers. This is an "architectural" business process description.
 
 ## Template Goals & Requirements
 
 ### Key Requirements
+* Provide Contextual Help to End users
+* Provide attestation support to the audit function
+* Reflects best practices
+* Document Report components (rows/columns/charts/filters etc) to provide functional and technical traceability to every displayed aspect of the report.
 
 
 ### Key Goals
