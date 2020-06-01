@@ -52,7 +52,7 @@ Nightly
 
 ## Data Sensitivity
 
-Data is classified as sensitive
+Data is classified as sensitive (sensitive, PII, etc..)
 
 ## Data Security
 

@@ -8,7 +8,7 @@ Proposed
 
 ## Related Documents
 
-[./Reporting Remplate.md](./Reporting_Template.md)
+[./Reporting Template.md](./Reporting_Template.md)
 
 ## Context
 
