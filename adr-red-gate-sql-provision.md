@@ -1,6 +1,6 @@
 
 
-# Red-Gate SQL Provision
+# Red-Gate SQL Provision Notes
 
 ## Physical & Network Requirements
 
