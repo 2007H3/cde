@@ -58,6 +58,10 @@ _list the data sensitivity classification for this report, if any_
 
 _list the data security requirements (auth/roles) for this report_
 
+## Lifecycle Management
+_a brief statement of when the report was introduced into porduction, and its estimated sunset date_
+
+
 # Report Audit & Traceability
 
 _This is an advanced level of documentation setting out fact dimension detail at the most granular level on all components of the report_

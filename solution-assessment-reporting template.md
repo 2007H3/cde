@@ -20,7 +20,7 @@ An implementation of a reporting documentation template will be used across Redl
 
 ### Key Requirements
 
-- Provide Contextual Help to End users
+- Provide a General Overview to End users
 - Provide Support to the Audit function
 - Reflects Best Practices
 - Document Report Components (rows/columns/charts/filters etc) to provide functional and technical traceability to every displayed aspect of the report and it's underlying datasource.

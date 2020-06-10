@@ -51,3 +51,5 @@
 
 ## FAQ's
 https://documentation.red-gate.com/clone2/faqs#FAQs-Docloneshavethesamedataasthesource?
+
+https://www.red-gate.com/hub/product-learning/sql-clone/sql-clone-concept
