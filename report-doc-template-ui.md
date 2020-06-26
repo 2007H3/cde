@@ -24,44 +24,39 @@ _what business process begins the production of this report_
 
 _what negative business impacts does the untimely production of this report have_
 
-### Data governance ([`x of 5`] requirements met)
+# Data governance ([`x of 5`] requirements met)
 
-`use either class="complete" or class="incomplete" to note status of governed criteria. Class="criteria-description" should remain unmodified`
+`use either class="complete" or class="incomplete" to note status of governed criteria. Class="data-governance" should remain unmodified`
 
+<ul id="data-governance-list" class="data-governance">
+   <li class="complete">
+      <b>Ownership</b> <span>is complete</span>
+      </br>Key owner(s) that approve changes to this report are: Doc Emmett Brown, Einstein Brown
+   </li>
 
-<li class="criteria-description">
-<span class="complete">Complete</span>
-<b>Ownership</b></br>Key owner(s) that approve changes to this report are: Doc Emmett Brown, Einstein Brown
-</li>
-</br>
-<li class="criteria-description">
-<span class="complete">Complete</span>
-<b>Dataset source</b></br>ex. This dataset is an originating dataset.  Additional source system information can be found within this document.</br></br>[Updated m/dd/yyyy]</br>[Audit passed on m/dd/yyyy][Owner name]
-</li>
-</br>
-<li class="criteria-description">
-<span class="complete">Complete</span>
-<b>Documentation</b></br>ex. This [report/dataset] is [fully] documented.
-</li>
-</li>
-</br>
-<li class="criteria-description">
-<span class="complete">Complete</span>
-<b>Source system</b></br>ex. This dataset uses information captured directly from RedLine’s micro-applicatons.
-</li>
-</br>
-<li class="criteria-description">
-<span class="complete">Complete</span>
-<b>Report audit & traceability</b></br>This is an advanced level of documentation setting out component, fact and dimension detail at the most granular level on all com-ponents of the report
-</li>
-</br>
-<li class="view-provenance">
-<span class="view-provenance-img"><b>View Provenance</b><span>
-</li>
-</br>
-<li class="last-audit-report">
-<span class="last-audit-report-img"><b>View Provenance</b><span>
-</li>
+   <li class="complete">
+      <b>Dataset source</b> <span>is complete</span>
+      <br>ex. This dataset is an originating dataset.  Additional source system information can be found within this document.</br>[Updated m/dd/yyyy]</br>[Audit passed on m/dd/yyyy][Owner name]
+   </li>
+
+   <li class="incomplete">
+      <b>Documentation</b> <span>is incomplete</span>
+      <br>ex. This [report/dataset] is [fully] documented.
+   </li>
+
+   <li class="complete">
+      <b>Source system</b> <span>is complete</span>
+      <br>ex. This dataset uses information captured directly from RedLine’s micro-applicatons.
+   </li>
+
+   <li class="complete">
+      <b>Report audit & traceability</b> <span>is complete</span>
+      <br>This is an advanced level of documentation setting out component, fact and dimension detail at the most granular level on all com-ponents of the report
+   </li>
+</ul>
+ 
+<a href="" title="" target="">View provenance</a>  
+<a href="" title="" target="">Last audit report</a>
  
 ## Security and sensitivity details
 
