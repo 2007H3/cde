@@ -1,30 +1,30 @@
 <link href="./style.css" rel="stylesheet"></link>
 
-# Overview {#documentation-overview}
+# Overview
 
 _This section assists business users with the functional aspects of this report_
 
-## Platform {#documentation-platform}
+## Platform
 
 _Service platform, currently RedLine or MyGSFS_
 
-## Update timing or schedule {#documentation-update-timing}
+## Update timing or schedule
 
 _how often is this report run_
 
-## Business objective {#documentation-business-objective}
+## Business objective
 
 _what business problem does this report solve_
 
-## Triggering activity {#documentation-triggering-activity}
+## Triggering activity
 
 _what business process begins the production of this report_
 
-## Impact of non-availability {#documentation-impact-of-non-availability}
+## Impact of non-availability
 
 _what negative business impacts does the untimely production of this report have_
 
-# Data governance ([`x of 5`] requirements met) {#documentation-data-governance}
+# Data governance ([`x of 5`] requirements met)
 
 `use either class="complete" or class="incomplete" to note status of governed criteria. Class="data-governance" should remain unmodified`
 
@@ -58,7 +58,7 @@ _what negative business impacts does the untimely production of this report have
 <a href="" title="" target="">View provenance</a>  
 <a href="" title="" target="">Last audit report</a>
  
-# Security & sensitivity details {#documentation-security-and-sensitivity}
+# Security & sensitivity details
 
 _list the data sensitivity classification for this report, if any_
 
@@ -67,7 +67,7 @@ ex. This [dataset] is classified as: Sensitive
 The security requirements for this dataset are:  
 [auth/activities for this dataset][activity 1]
 
-# Presentation information {#documentation-presentation-information}
+# Presentation information
 
 ex. This dataset uses a grid for raw data presentation, column filters for slicing, and a download button to export in csv.
 
@@ -75,7 +75,7 @@ ex. This dataset uses a grid for raw data presentation, column filters for slici
 
 Used to download dataset in csv format.
 
-## Grid {#documentation-grid-details}
+## Grid
 
 ex. The detailed usage data is presented in a tabular format and displays the underlying dataest without aggregation. The data is grouped by x,y,z
 
@@ -101,11 +101,11 @@ Columns Include:
 - Masking Type: _(none, static, or dynamic)_
 </div>
 
-# Relationships & dependencies {#documentation-relationship-dependencies}
+# Relationships & dependencies
 
 _List the dependencies of this report if any_
 
-# Revision history {#documentation-revision-history}
+# Revision history
 
 _use the same versioning convention used by the source control system of the report_
 | REV | Date | Description |
