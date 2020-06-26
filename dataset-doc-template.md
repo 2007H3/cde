@@ -1,68 +1,64 @@
 <link href="./style.css" rel="stylesheet"></link>
 
-# Overview
+# Overview {#documentation-overview}
 
 _This section assists business users with the functional aspects of this report_
 
-## Platform
+## Platform {#documentation-platform}
 
-_Service platform, currently Redline or MyGSFS_
+_Service platform, currently RedLine or MyGSFS_
 
-## Update timing or schedule
+## Update timing or schedule {#documentation-update-timing}
 
 _how often is this report run_
 
-## Business Objective
+## Business objective {#documentation-business-objective}
 
 _what business problem does this report solve_
 
-## Triggering Activity
+## Triggering activity {#documentation-triggering-activity}
 
 _what business process begins the production of this report_
 
-## Impact of non-availability
+## Impact of non-availability {#documentation-impact-of-non-availability}
 
 _what negative business impacts does the untimely production of this report have_
 
-# Data governance ([`x of 5`] requirements met)
+# Data governance ([`x of 5`] requirements met) {#documentation-data-governance}
 
-`use either class="complete" or class="incomplete" to note status of governed criteria. Class="criteria-description" should remain unmodified`
+`use either class="complete" or class="incomplete" to note status of governed criteria. Class="data-governance" should remain unmodified`
 
-<ul>
+<ul id="data-governance-list" class="data-governance">
    <li class="complete">
       <b>Ownership</b> <span>is complete</span>
       </br>Key owner(s) that approve changes to this report are: Doc Emmett Brown, Einstein Brown
    </li>
-</ul>
-<ul>
+
    <li class="complete">
       <b>Dataset source</b> <span>is complete</span>
       <br>ex. This dataset is an originating dataset.  Additional source system information can be found within this document.</br>[Updated m/dd/yyyy]</br>[Audit passed on m/dd/yyyy][Owner name]
    </li>
-</ul>
-<ul>
+
    <li class="incomplete">
       <b>Documentation</b> <span>is incomplete</span>
       <br>ex. This [report/dataset] is [fully] documented.
    </li>
-</ul>
-<ul>
+
    <li class="complete">
-      <b>Source system</b> <span >is complete</span>
+      <b>Source system</b> <span>is complete</span>
       <br>ex. This dataset uses information captured directly from RedLine’s micro-applicatons.
    </li>
-</ul>
-<ul>
+
    <li class="complete">
       <b>Report audit & traceability</b> <span>is complete</span>
       <br>This is an advanced level of documentation setting out component, fact and dimension detail at the most granular level on all com-ponents of the report
    </li>
 </ul>
  
-<a href="">View Provenance</a>  
-<a href="">Last Audit Report</a>
+<a href="" title="" target="">View provenance</a>  
+<a href="" title="" target="">Last audit report</a>
  
-# Security & sensitivity details
+# Security & sensitivity details {#documentation-security-and-sensitivity}
 
 _list the data sensitivity classification for this report, if any_
 
@@ -71,15 +67,15 @@ ex. This [dataset] is classified as: Sensitive
 The security requirements for this dataset are:  
 [auth/activities for this dataset][activity 1]
 
-# Presentation information
+# Presentation information {#documentation-presentation-information}
 
 ex. This dataset uses a grid for raw data presentation, column filters for slicing, and a download button to export in csv.
 
-## Export Button
+## Export button
 
-Used to downolad dataset in csv format.
+Used to download dataset in csv format.
 
-## Grid
+## Grid {#documentation-grid-details}
 
 ex. The detailed usage data is presented in a tabular format and displays the underlying dataest without aggregation. The data is grouped by x,y,z
 
@@ -105,11 +101,11 @@ Columns Include:
 - Masking Type: _(none, static, or dynamic)_
 </div>
 
-# Relationships & Dependencies
+# Relationships & dependencies {#documentation-relationship-dependencies}
 
 _List the dependencies of this report if any_
 
-# Revision History
+# Revision history {#documentation-revision-history}
 
 _use the same versioning convention used by the source control system of the report_
 | REV | Date | Description |
