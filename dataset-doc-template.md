@@ -1,30 +1,30 @@
 <link href="./style.css" rel="stylesheet"></link>
 
-## Overview
+# Overview
 
 _This section assists business users with the functional aspects of this report_
 
-### Platform
+## Platform
 
 _Service platform, currently Redline or MyGSFS_
 
-### Update timing or schedule
+## Update timing or schedule
 
 _how often is this report run_
 
-### Business Objective
+## Business Objective
 
 _what business problem does this report solve_
 
-### Triggering Activity
+## Triggering Activity
 
 _what business process begins the production of this report_
 
-### Impact of non-availability
+## Impact of non-availability
 
 _what negative business impacts does the untimely production of this report have_
 
-## Data governance ([`x of 5`] requirements met)
+# Data governance ([`x of 5`] requirements met)
 
 `use either class="complete" or class="incomplete" to note status of governed criteria. Class="criteria-description" should remain unmodified`
 
@@ -62,7 +62,7 @@ _what negative business impacts does the untimely production of this report have
 <a href="">View Provenance</a>  
 <a href="">Last Audit Report</a>
  
-## Security & sensitivity details
+# Security & sensitivity details
 
 _list the data sensitivity classification for this report, if any_
 
@@ -71,15 +71,15 @@ ex. This [dataset] is classified as: Sensitive
 The security requirements for this dataset are:  
 [auth/activities for this dataset][activity 1]
 
-## Presentation information
+# Presentation information
 
 ex. This dataset uses a grid for raw data presentation, column filters for slicing, and a download button to export in csv.
 
-### Export Button
+## Export Button
 
 Used to downolad dataset in csv format.
 
-### Grid
+## Grid
 
 ex. The detailed usage data is presented in a tabular format and displays the underlying dataest without aggregation. The data is grouped by x,y,z
 
@@ -105,11 +105,11 @@ Columns Include:
 - Masking Type: _(none, static, or dynamic)_
 </div>
 
-## Relationships & Dependencies
+# Relationships & Dependencies
 
 _List the dependencies of this report if any_
 
-## Revision History
+# Revision History
 
 _use the same versioning convention used by the source control system of the report_
 | REV | Date | Description |
